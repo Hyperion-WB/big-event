@@ -6,3 +6,7 @@ spring:
     password: 123456
 server:
   port: 8098
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命名自动转换
